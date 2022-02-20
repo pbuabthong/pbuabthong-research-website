@@ -1,0 +1,19 @@
+.prose-lg .timeline li::marker {
+  content: none;
+}
+.prose-lg .timeline li::last-child {
+  border: 0px;
+  padding-bottom: 0;
+}
+.prose-lg .timeline ul li::before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  background: white;
+  border: 1px solid #bb3e03;
+  box-shadow: 3px 3px 0px #ca6702;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+}
