@@ -98,3 +98,14 @@ module.exports = withBundleAnalyzer({
     return config
   },
 })
+
+module.exports = {
+  redirects: async () => [
+    {
+      source: '/:path*',
+      has: [{ type: 'host', value: 'www.pbuabthong.com' }],
+      destination: 'https://pbuabthong.com/:path*',
+      permanent: true
+    }
+  ]
+}
