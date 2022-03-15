@@ -1,4 +1,13 @@
 const timelineData = [
+	{
+    time: 'January 2022 - now',
+    role: 'Machine Learning Researcher/Technical Consultant',
+    company: 'Kasikorn Business-Technology Group',
+    companyURL: 'https://www.nrru.ac.th',
+    works: [
+			`Research focused on Thai NLP and knowledge graph`
+		],
+  },
   {
     time: 'December 2021 - now',
     role: 'Lecturer',
@@ -47,7 +56,7 @@ const timelineData = [
     companyURL: 'https://sawbo-animations.org/',
     works: [
       `Created 2D animations covering common health issues`,
-      `Developed iOS and Android application and designed the database fro distributing the animations`
+      `Developed iOS and Android application and designed the database for distributing the animations`
       ],
   },
 ]
