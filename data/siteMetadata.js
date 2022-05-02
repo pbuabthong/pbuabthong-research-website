@@ -5,8 +5,8 @@ const siteMetadata = {
   description: 'Site for Buabthong Group at NRRU',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://pbuabthong.nrru.ac.th',
-  siteRepo: 'https://github.com/pbuabthong/pbuabthong.nrru.ac.th',
+  siteUrl: 'https://pbuabthong.com',
+  siteRepo: 'https://github.com/pbuabthong/pbuabthong-research-website',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',

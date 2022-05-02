@@ -1,5 +1,15 @@
 const publicationsData = [{
     year: "2022",
+    url: "https://pubs.geoscienceworld.org/bssa/article/doi/10.1785/0120210264/613199/Data-Driven-Synthesis-of-Broadband-Earthquake",
+    title: "{Data-Driven Synthesis of Broadband Earthquake Ground Motions Using Artificial Intelligence}",
+    month: "apr",
+    journal: "Bulletin of the Seismological Society of America",
+    doi: "10.1785/0120210264",
+    author: "Florez, M. A., Caporale, M., Buabthong, P., Ross, Z. E., Asimaki, D., and Meier, M.-A.",
+    ENTRYTYPE: "article",
+    ID: "Florez2022"
+}, {
+    year: "2022",
     volume: "15",
     url: "http://xlink.rsc.org/?DOI=D1EE03040J",
     title: "{Catalytic open-circuit passivation by thin metal oxide films of p-Si anodes in aqueous alkaline electrolytes}",
