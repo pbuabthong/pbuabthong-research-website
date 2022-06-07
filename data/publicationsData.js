@@ -1,5 +1,14 @@
 const publicationsData = [{
     year: "2022",
+    url: "https://pubs.acs.org/doi/10.1021/acsami.2c01845",
+    title: "{Failure Modes of Platinized pn+-GaInP Photocathodes for Solar-Driven H2 Evolution}",
+    journal: "ACS Applied Materials & Interfaces",
+    doi: "10.1021/acsami.2c01845",
+    author: "Yu, W., Buabthong, P., Young, J. L., Ifkovits, Z. P., Byrne, S. T., Steiner, M. A., Deutsch, T. G., Lewis, N. S.",
+    ENTRYTYPE: "article",
+    ID: "Yu2022"
+}, {
+    year: "2022",
     url: "https://pubs.geoscienceworld.org/bssa/article/doi/10.1785/0120210264/613199/Data-Driven-Synthesis-of-Broadband-Earthquake",
     title: "{Data-Driven Synthesis of Broadband Earthquake Ground Motions Using Artificial Intelligence}",
     month: "apr",
