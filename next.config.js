@@ -97,4 +97,13 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
+  async redirects() {
+    return [
+      {
+        source: '/tutoring',
+        destination: 'https://www.canva.com/design/DAEwcnh897s/Ib6BPWaB24JueP0tpURdsQ/view?utm_content=DAEwcnh897s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+        permanent: false
+      }
+    ];
+  }
 })
