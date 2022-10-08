@@ -1,5 +1,14 @@
 const publicationsData = [{
     year: "2022",
+    url: "https://www.ije.ir/article_157537.html",
+    title: "{Structural and Optical Properties of Bismuth-Doped ZnO Nanoparticles Synthesized by Co-precipitation}",
+    journal: "International Journal of Engineering, Transaction C: Aspects",
+    doi: "10.5829/IJE.2022.35.12C.10",
+    author: "Sermsrithong, C., Jaidaew, P., Promjantuk, C., Buabthong, P.",
+    ENTRYTYPE: "article",
+    ID: "Sermsrithong2022"
+},{
+    year: "2022",
     url: "https://pubs.acs.org/doi/10.1021/acsami.2c01845",
     title: "{Failure Modes of Platinized pn+-GaInP Photocathodes for Solar-Driven H2 Evolution}",
     journal: "ACS Applied Materials & Interfaces",
