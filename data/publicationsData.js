@@ -1,5 +1,14 @@
 const publicationsData = [{
     year: "2022",
+    url: "https://doi.org/10.1109/iSAI-NLP56921.2022.9960247",
+		title: "{Question Answering Over Knowledge Graphs for Thai Retail Banking Products}",
+		journal: "2022 17th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)",
+    doi: "10.1109/iSAI-NLP56921.2022.9960247",
+		author: "Khongcharoen, W., Saetia, C., Chalothorn, T., Buabthong, P.",
+    ENTRYTYPE: "proceeding",
+    ID: "Khongcharoen2022"
+},{
+    year: "2022",
     url: "https://www.ije.ir/article_157537.html",
     title: "{Structural and Optical Properties of Bismuth-Doped ZnO Nanoparticles Synthesized by Co-precipitation}",
     journal: "International Journal of Engineering, Transaction C: Aspects",
