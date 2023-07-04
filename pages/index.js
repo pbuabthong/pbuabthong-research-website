@@ -45,9 +45,9 @@ export default function Home({ posts }) {
                 </a>
               </h1>
               <p className="mt-4 mb-8">
-                My research interests lie primarily in (1) renewable energy and (2) information science and applied machine learning.
+                My research interests lie primarily in (1) information science and applied machine learning and (2) energy materials, particularly, how to use machine learning to accelerate material discovery and understanding.
                 <br />
-                My goal is to help energy transition toward net zero,
+                My goal is to help bridging the gap between machine learning and science discovery, meanwhile assisting energy transition toward net zero,
                 spanning from experimental materials research to energy system planning,
                 and to create open data platform to facilitate better energy planning in Thailand.
               </p>

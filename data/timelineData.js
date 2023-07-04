@@ -3,7 +3,7 @@ const timelineData = [
     time: 'January 2022 - now',
     role: 'Machine Learning Researcher/Technical Consultant',
     company: 'Kasikorn Business-Technology Group',
-    companyURL: 'https://www.nrru.ac.th',
+    companyURL: 'https://www.kbtg.tech',
     works: [
 			`Research focused on Thai NLP and knowledge graph`
 		],
