@@ -1,5 +1,14 @@
 const timelineData = [
 	{
+    time: 'April 2023 - now',
+    role: 'Researcher',
+    company: 'Office of Academic Services, Center of Korat Development',
+    companyURL: 'https://povertykorat.nrru.ac.th/wordpress',
+    works: [
+			`Research focus on local development and data-driven poverty alleviation in Nakhon Ratchasima (Korat)`
+		],
+  },
+	{
     time: 'January 2022 - now',
     role: 'Machine Learning Researcher/Technical Consultant',
     company: 'Kasikorn Business-Technology Group',

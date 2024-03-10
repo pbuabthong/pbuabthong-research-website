@@ -1,4 +1,31 @@
 const publicationsData = [{
+    year: "2023",
+    url: "https://doi.org/10.1007/978-3-031-40286-9_34",
+		title: "{A Cross-Document Coreference Resolution Approach to Low-Resource Languages}",
+		journal: "Knowledge Science, Engineering and Management. KSEM 2023. Lecture Notes in Computer Science vol 14118",
+    doi: "10.1007/978-3-031-40286-9_34",
+		author: "Theptakob, N., Seneewong Na Ayutthaya, T., Saetia, C., Chalothorn, T., Buabthong, P.",
+    ENTRYTYPE: "proceeding",
+    ID: "theptakob2023"
+},{
+    year: "2023",
+    url: "https://doi.org/10.1109/ACCESS.2023.3295004",
+		title: "{How to Progressively Build Thai Spelling Correction Systems?}",
+		journal: "IEEE Access",
+    doi: "10.1109/ACCESS.2023.3295004",
+		author: "Lertpiya, A., Chalothorn, T., Buabthong, P.",
+    ENTRYTYPE: "article",
+    ID: "lertpiya2023"
+},{
+    year: "2023",
+		url: "https://doi.org/10.1016/B978-0-323-96022-9.00102-X",
+		title: "{Photoelectrochemical Cells}",
+		journal: "Photoelectrocatalysis",
+    doi: "10.1016/B978-0-323-96022-9.00102-X",
+		author: "Yu, W., Pan, Z., Buabthong, P., Kempler, P. A., Tournet, J., Karuturi, S.,",
+    ENTRYTYPE: "article",
+    ID: "yu2023"
+},{
     year: "2022",
     url: "https://doi.org/10.1109/iSAI-NLP56921.2022.9960247",
 		title: "{Question Answering Over Knowledge Graphs for Thai Retail Banking Products}",
