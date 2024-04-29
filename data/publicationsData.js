@@ -1,4 +1,13 @@
 const publicationsData = [{
+    year: "2024",
+    url: "https://doi.org/10.3389/frai.2024.1361483",
+		title: "{Streamlining event extraction with a simplified annotation framework}",
+		journal: "Frontiers in Artificial Intelligence: Advances in Structured Information Extraction for Large Language Models",
+    doi: "10.3389/frai.2024.1361483",
+		author: "Saetia, C., Thonglong, A., Amornchaiteera, T., Chalothorn, T., Taerungruang, S., Buabthong, P.",
+    ENTRYTYPE: "article",
+    ID: "saetia2024"
+},{
     year: "2023",
     url: "https://doi.org/10.1007/978-3-031-40286-9_34",
 		title: "{A Cross-Document Coreference Resolution Approach to Low-Resource Languages}",
