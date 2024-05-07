@@ -59,6 +59,8 @@ export default function Home({ posts }) {
                   target="_blank"
                   rel="noreferrer"
                 >
+                    paippb.com
+                    </a>
               </p>
               <div className="flex flex-col">
                 <Link href="/about" className="hover:underline">
