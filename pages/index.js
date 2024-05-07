@@ -34,7 +34,7 @@ export default function Home({ posts }) {
 
             <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
               <h1 className="text-neutral-900 dark:text-neutral-200">
-                I'm <span className="font-medium">Pai Pakpoom Buabthong</span>. I'm a professor of Physics in the Department of Science and Technology at{' '}
+                I'm <span className="font-medium">Pai Pakpoom Buabthong</span>. I'm an assistant professor of Physics in the Department of Science and Technology at{' '}
                 <a
                   className="underline"
                   href="https://www.nrru.ac.th"
@@ -50,6 +50,15 @@ export default function Home({ posts }) {
                 My goal is to help bridging the gap between machine learning and science discovery, meanwhile assisting energy transition toward net zero,
                 spanning from experimental materials research to energy system planning,
                 and to create open data platform to facilitate better energy planning in Thailand.
+              </p>
+              <p className="mt-4 mb-8">
+                I also write about my experience as an academia in Thailand from time to time. Visit my personal website at 
+                <a
+                  className="underline"
+                  href="https://paippb.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
               </p>
               <div className="flex flex-col">
                 <Link href="/about" className="hover:underline">
