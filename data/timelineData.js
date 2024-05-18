@@ -1,6 +1,15 @@
 const timelineData = [
+  {
+    time: 'May 2024 - now',
+    role: 'Deputy Director',
+    company: 'Office of Academic Services',
+    companyURL: 'https://povertykorat.nrru.ac.th/wordpress',
+    works: [
+      'Databases and Big Data projects in the university and the province'
+		],
+  },
 	{
-    time: 'April 2023 - now',
+    time: 'May 2023 - April 2024',
     role: 'Researcher',
     company: 'Office of Academic Services, Center of Korat Development',
     companyURL: 'https://povertykorat.nrru.ac.th/wordpress',
