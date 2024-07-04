@@ -4,7 +4,7 @@ const publicationsData = [{
     journal: "Proceedings of the TextGraphs-17: Graph-based Methods for Natural Language Processing @ ACL",
     author: "Saetia, C., Phruetthiset, J., Chalothorn, T., Lertsutthiwong, M., Taerungruang, S., Buabthong, P.",
     ENTRYTYPE: "proceeding",
-    ID: "saetia2024Ontology
+    ID: "saetia2024Ontology"
 },{
     year: "2024",
     url: "https://doi.org/10.3389/frai.2024.1361483",
