@@ -1,5 +1,14 @@
 const timelineData = [
   {
+    time: 'July 2024 - now',
+    role: 'Assistant Dean',
+    company: 'Faculty of Science and Technology',
+    companyURL: 'https://sciencetech.nrru.ac.th/',
+    works: [
+      'Evaluation and assessment, public ralation, and corporate communication'
+		],
+  },
+  {
     time: 'May 2024 - now',
     role: 'Deputy Director',
     company: 'Office of Academic Services',
