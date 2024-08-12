@@ -1,6 +1,7 @@
 const publicationsData = [{
     year: "2024",
-    title: "Financial Product Ontology Population with Large Language Models", 
+    url: "https://aclanthology.org/2024.textgraphs-1.4/"
+    title: "{Financial Product Ontology Population with Large Language Models}", 
     journal: "Proceedings of the TextGraphs-17: Graph-based Methods for Natural Language Processing @ ACL",
     author: "Saetia, C., Phruetthiset, J., Chalothorn, T., Lertsutthiwong, M., Taerungruang, S., Buabthong, P.",
     ENTRYTYPE: "proceeding",
@@ -8,7 +9,7 @@ const publicationsData = [{
 },{
     year: "2024",
     url: "https://doi.org/10.3389/frai.2024.1361483",
-		title: "{Streamlining event extraction with a simplified annotation framework}",
+		title: "{Streamlining Event Extraction with a Simplified Annotation Framework}",
 		journal: "Frontiers in Artificial Intelligence: Advances in Structured Information Extraction for Large Language Models",
     doi: "10.3389/frai.2024.1361483",
 		author: "Saetia, C., Thonglong, A., Amornchaiteera, T., Chalothorn, T., Taerungruang, S., Buabthong, P.",
