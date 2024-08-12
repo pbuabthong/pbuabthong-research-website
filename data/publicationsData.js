@@ -1,6 +1,6 @@
 const publicationsData = [{
     year: "2024",
-    url: "https://aclanthology.org/2024.textgraphs-1.4/"
+    url: "https://aclanthology.org/2024.textgraphs-1.4/",
     title: "{Financial Product Ontology Population with Large Language Models}", 
     journal: "Proceedings of the TextGraphs-17: Graph-based Methods for Natural Language Processing @ ACL",
     author: "Saetia, C., Phruetthiset, J., Chalothorn, T., Lertsutthiwong, M., Taerungruang, S., Buabthong, P.",
