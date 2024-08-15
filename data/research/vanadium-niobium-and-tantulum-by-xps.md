@@ -7,6 +7,7 @@ summary: Straightforward XPS measurement for metallic vanadium, niobium, and tan
 images: []
 layout: PostLayout
 doi: 10.1116/1.4998018
+citationKey: Buabthong2017
 ---
 
 This was my very first publication at Caltech

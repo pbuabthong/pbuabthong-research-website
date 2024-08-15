@@ -8,22 +8,22 @@ import Link from 'next/link'
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('research')
-  const postsWithDOI = []
+  const postsWithCK = []
   posts.forEach((post) => {
-    if (post.doi) {
-      postsWithDOI.push(
+    if (post.citationKey) {
+      postsWithCK.push(
         {
-          doi:post.doi,
+          citationKey:post.citationKey,
           slug:post.slug
         }
       )
     }
   })
-  return { props: { postsWithDOI } }
+  return { props: { postsWithCK } }
 }
 
-export default function Projects({ postsWithDOI }) {
-  console.log(postsWithDOI)
+export default function Projects({ postsWithCK }) {
+  console.log(postsWithCK)
   return (
     <>
       <PageSEO title={`Publications - ${siteMetadata.author}`} description={siteMetadata.description} />
@@ -86,8 +86,16 @@ export default function Projects({ postsWithDOI }) {
                   className="underline hover:no-underline"
                   href={getURL("arxiv", d.arxivid)}
                 >{"arXiv: "+d.arxivid}</a>,
+              )}
+              {!d.doi && !d.arxivid && d.url && (
+                <a
+                  className="underline hover:no-underline"
+                  href={d.url}
+                >
+                  {d.url}
+                </a>
               )}{' '}
-              {getReadMore(postsWithDOI, d.doi)}
+              {getReadMore(postsWithCK, d.ID)}
               </div>
             ))}
           </div>
@@ -97,11 +105,11 @@ export default function Projects({ postsWithDOI }) {
   )
 }
 
-const getReadMore = (postsWithDOI, doi) => {
+const getReadMore = (postsWithCK, ID) => {
   const boldedAuthor = "Buabthong, P.";
   var retReadMore
-  postsWithDOI.forEach((post) => {
-    if (post.doi == doi) {
+  postsWithCK.forEach((post) => {
+    if (post.citationKey == ID) {
       const slug = "research/" + post.slug
       retReadMore = (
         <div className="tracking-wide font-semibold underline hover:no-underline text-primary-500">

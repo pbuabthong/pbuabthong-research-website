@@ -7,6 +7,7 @@ summary: We adopted multi-hop KGQA for Thai language data, using a manually-cons
 doi: 10.1109/iSAI-NLP56921.2022.9960247
 images: []
 layout: PostLayout
+citationKey: Khongcharoen2022
 ---
 
 Khongcharoen, W., Saetia, C., Chalothorn, T., **Buabthong, P.**, "Question Answering Over Knowledge Graphs for Thai Retail Banking Products." 2022 17th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP), (2022). [DOI: 10.1109/iSAI-NLP56921.2022.9960247](https://doi.org/10.1109/iSAI-NLP56921.2022.9960247)

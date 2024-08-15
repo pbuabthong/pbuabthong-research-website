@@ -7,6 +7,7 @@ summary: Using generative adversarial networks, we're able to generate realistic
 doi: 10.1785/0120210264
 images: []
 layout: PostLayout
+citationKey: Florez2022
 ---
 
 Florez, M. A., Caporale, M., **Buabthong, P.**, Ross, Z. E., Asimaki, D., and Meier, M.-A., "Data-Driven Synthesis of Broadband Earthquake Ground Motions Using Artificial Intelligence." Bulletin of the Seismological Society of America, (2022). [DOI: 10.1785/0120210264](https://doi.org/10.1785/0120210264)

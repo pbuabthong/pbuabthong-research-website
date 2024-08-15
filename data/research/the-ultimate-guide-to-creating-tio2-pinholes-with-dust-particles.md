@@ -7,6 +7,7 @@ summary: We quantify pinholes in TiO2 film caused by dust particles during the d
 doi: 10.1039/D0EE02032J
 images: []
 layout: PostLayout
+citationKey: Buabthong2020
 ---
 
 **Buabthong, P.**, Ifkovits, Z. P., Kempler, P. A., Chen, Y., Nunez, P. D., Brunschwig, B. S., Papadantonakis, K. M., and Lewis, Nathan S., "Failure modes of protection layers produced by atomic layer deposition of amorphous TiO 2 on GaAs anodes." Energy & Environmental Science, (2020), 13, 4269-4279. [DOI: 10.1039/D0EE02032J](https://doi.org/10.1039/D0EE02032J)

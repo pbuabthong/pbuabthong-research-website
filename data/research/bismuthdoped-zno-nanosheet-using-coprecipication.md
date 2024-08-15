@@ -7,6 +7,7 @@ summary: Bismuth-doped ZnO nanosheets were synthesized using co-precipitation. W
 doi: 10.5829/IJE.2022.35.12C.10
 images: []
 layout: PostLayout
+citationKey: Sermsrithong2022
 ---
 
 Sermsrithong, C., Jaidaew, P., Promjantuk, C., **Buabthong, P.**, "Structural and Optical Properties of Bismuth-Doped ZnO Nanoparticles Synthesized by Co-precipitation." International Journal of Engineering, Transaction C: Aspects, (2022). [DOI: 10.5829/IJE.2022.35.12C.10](https://doi.org/10.5829/IJE.2022.35.12C.10)
