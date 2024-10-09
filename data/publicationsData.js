@@ -1,5 +1,13 @@
 const publicationsData = [{
     year: "2024",
+    url: "https://doi.org/10.1038/s41598-024-71238-0",
+    title: "{Rapid alignment-free bacteria identification via optical scattering with LEDs and YOLOv8}", 
+    journal: "Scientific Reports",
+    author: "Romphosri, S., Pissuwan, D., Wattanavichean, N., Buabthong, P., Waritanant, T.",
+    ENTRYTYPE: "article",
+    ID: "romphosri2024Yolov8"
+},{
+    year: "2024",
     url: "https://aclanthology.org/2024.textgraphs-1.4/",
     title: "{Financial Product Ontology Population with Large Language Models}", 
     journal: "Proceedings of the TextGraphs-17: Graph-based Methods for Natural Language Processing @ ACL",
