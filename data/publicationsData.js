@@ -3,6 +3,7 @@ const publicationsData = [{
     url: "https://doi.org/10.1038/s41598-024-71238-0",
     title: "{Rapid alignment-free bacteria identification via optical scattering with LEDs and YOLOv8}", 
     journal: "Scientific Reports",
+    doi: "10.1038/s41598-024-71238-0",
     author: "Romphosri, S., Pissuwan, D., Wattanavichean, N., Buabthong, P., Waritanant, T.",
     ENTRYTYPE: "article",
     ID: "romphosri2024Yolov8"
