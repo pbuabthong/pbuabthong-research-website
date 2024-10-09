@@ -1,6 +1,6 @@
 const headerNavLinks = [
   { href: '/', title: 'Home' },
-  { href: 'https://paippb.com', title: 'Blog' }
+  { href: 'https://paippb.com', title: 'Blog' },
   { href: '/research', title: 'Research' },
   { href: '/publications', title: 'Publications' },
   { href: '/teaching', title: 'Teaching' },
