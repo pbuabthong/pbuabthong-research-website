@@ -1,6 +1,15 @@
 const timelineData = [
   {
-    time: 'July 2024 - now',
+    time: 'November 2024 - now',
+    role: 'Deputy Director',
+    company: 'NRRU Office of Lifelong Learning (NRLL)',
+    companyURL: 'https://lifelonglearning.nrru.ac.th/',
+    works: [
+      'Academic services and external affairs'
+		],
+  },
+  {
+    time: 'July 2024 - November 2024',
     role: 'Assistant Dean',
     company: 'Faculty of Science and Technology',
     companyURL: 'https://sciencetech.nrru.ac.th/',
@@ -10,7 +19,7 @@ const timelineData = [
   },
   {
     time: 'May 2024 - now',
-    role: 'Deputy Director',
+    role: 'Associate Director of Data Management',
     company: 'Office of Academic Services',
     companyURL: 'https://povertykorat.nrru.ac.th/wordpress',
     works: [
