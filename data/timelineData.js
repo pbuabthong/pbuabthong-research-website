@@ -1,8 +1,19 @@
 const timelineData = [
   {
-    time: 'November 2024 - now',
+    time: 'April 2025 - now',
+    role: 'Director',
+    company: 'Nakhon Ratchasima Office of Lifelong Learning (NRLL)',
+    companyURL: 'https://lifelonglearning.nrru.ac.th/',
+    works: [
+	`Implement credit bank system for NRRU`,
+	`Develop short-courses for upskilling and reskilling local workforce`,
+	`Promote academic services and external affairs`
+		],
+  },
+  {
+    time: 'November 2024 - April 2025',
     role: 'Deputy Director',
-    company: 'NRRU Office of Lifelong Learning (NRLL)',
+    company: 'Nakhon Ratchasima Office of Lifelong Learning (NRLL)',
     companyURL: 'https://lifelonglearning.nrru.ac.th/',
     works: [
       'Academic services and external affairs'
