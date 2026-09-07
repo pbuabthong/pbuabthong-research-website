@@ -97,6 +97,14 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
+  async rewrites() {
+    return [
+      {
+        source: '/teaching/true-rpa',
+        destination: '/teaching/true-rpa.html',
+      },
+    ]
+  },
   async redirects() {
     return [
       {
