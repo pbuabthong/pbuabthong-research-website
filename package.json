@@ -2,6 +2,9 @@
   "name": "pai-buabthong-research-website",
   "version": "1.5.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
