@@ -103,6 +103,10 @@ module.exports = withBundleAnalyzer({
         source: '/teaching/true-rpa',
         destination: '/teaching/true-rpa.html',
       },
+      {
+        source: '/teaching/cp-ai-roadmap',
+        destination: '/teaching/cp-ai-roadmap.html',
+      },
     ]
   },
   async redirects() {
