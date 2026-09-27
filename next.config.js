@@ -107,6 +107,10 @@ module.exports = withBundleAnalyzer({
         source: '/teaching/cp-ai-roadmap',
         destination: '/teaching/cp-ai-roadmap.html',
       },
+      {
+        source: '/teaching/cp-ai-workshop',
+        destination: '/teaching/cp-ai-workshop.html',
+      },
     ]
   },
   async redirects() {
