@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Pai Buabthong @ NRRU',
+  title: 'Pakpoom Buabthong | Applied AI, Physics, and Lifelong Learning',
   author: 'Pai Pakpoom Buabthong',
   headerTitle: 'Pai Pakpoom Buabthong',
-  description: 'Site for Buabthong Group at NRRU',
+  description: 'Pakpoom (Pai) Buabthong: Assistant Professor of Physics at NRRU, Director of the Nakhon Ratchasima Office of Lifelong Learning, and adjunct faculty at CMKL University teaching generative AI and graph-based learning.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://pbuabthong.com',

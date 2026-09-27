@@ -1,5 +1,19 @@
 const timelineData = [
   {
+    time: 'Current',
+    role: 'Consultant',
+    company: 'Mentora Consulting Group',
+    companyURL: '',
+    works: [],
+  },
+  {
+    time: 'Current',
+    role: 'Consultant',
+    company: 'Naralai',
+    companyURL: 'https://naralai.com',
+    works: [],
+  },
+  {
     time: 'April 2025 - now',
     role: 'Director',
     company: 'Nakhon Ratchasima Office of Lifelong Learning (NRLL)',
@@ -25,16 +39,7 @@ const timelineData = [
     company: 'Faculty of Science and Technology',
     companyURL: 'https://sciencetech.nrru.ac.th/',
     works: [
-      'Evaluation and assessment, public ralation, and corporate communication'
-		],
-  },
-  {
-    time: 'May 2024 - now',
-    role: 'Associate Director of Data Management',
-    company: 'Office of Academic Services',
-    companyURL: 'https://povertykorat.nrru.ac.th/wordpress',
-    works: [
-      'Databases and Big Data projects in the university and the province'
+      'Evaluation and assessment, public relation, and corporate communication'
 		],
   },
 	{
@@ -43,11 +48,12 @@ const timelineData = [
     company: 'Office of Academic Services, Center of Korat Development',
     companyURL: 'https://povertykorat.nrru.ac.th/wordpress',
     works: [
-			`Research focus on local development and data-driven poverty alleviation in Nakhon Ratchasima (Korat)`
+			`Research focus on local development and data-driven poverty alleviation in Nakhon Ratchasima (Korat)`,
+			`Managed databases and big data projects`
 		],
   },
 	{
-    time: 'January 2022 - now',
+    time: 'January 2022 - December 2024',
     role: 'Machine Learning Researcher/Technical Consultant',
     company: 'Kasikorn Business-Technology Group',
     companyURL: 'https://www.kbtg.tech',

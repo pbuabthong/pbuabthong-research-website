@@ -34,25 +34,47 @@ export default function Home({ posts }) {
 
             <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
               <h1 className="text-neutral-900 dark:text-neutral-200">
-                I'm <span className="font-medium">Pai Pakpoom Buabthong</span>. I'm an assistant professor of Physics in the Department of Science and Technology at{' '}
+                I'm <span className="font-medium">Pai Pakpoom Buabthong</span>. I'm an assistant professor of Physics at{' '}
                 <a
                   className="underline"
                   href="https://www.nrru.ac.th"
                   target="_blank"
                   rel="noreferrer"
                 >
-                Nakhon Ratchasima Rajabhat University
+                  Nakhon Ratchasima Rajabhat University
+                </a>{' '}
+                and the Director of the{' '}
+                <a
+                  className="underline"
+                  href="https://lifelonglearning.nrru.ac.th/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Nakhon Ratchasima Office of Lifelong Learning (NRLL)
                 </a>
+                .
               </h1>
               <p className="mt-4 mb-8">
-                My research interests lie primarily in (1) information science and applied machine learning and (2) energy materials, particularly, how to use machine learning to accelerate material discovery and understanding.
-                <br />
-                My goal is to help bridging the gap between machine learning and science discovery, meanwhile assisting energy transition toward net zero,
-                spanning from experimental materials research to energy system planning,
-                and to create open data platform to facilitate better energy planning in Thailand.
+                At NRLL, my work focuses on improving education and providing equitable access to
+                quality education in provincial Thailand, through credit bank systems and short courses
+                that help the local workforce upskill and reskill.
               </p>
               <p className="mt-4 mb-8">
-                I also write about my experience as an academia in Thailand from time to time. Visit my personal website at 
+                I am also an adjunct faculty member at{' '}
+                <a
+                  className="underline"
+                  href="https://www.cmkl.ac.th"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CMKL University
+                </a>
+                , where I teach and do research in generative AI and graph-based learning. My earlier
+                research spans applied machine learning, Thai NLP and knowledge graphs, and energy
+                materials for solar fuels.
+              </p>
+              <p className="mt-4 mb-8">
+                I also write about my experience as an academic in Thailand from time to time. Visit my personal website at{' '}
                 <a
                   className="underline"
                   href="https://paippb.com"

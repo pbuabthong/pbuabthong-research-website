@@ -9,9 +9,13 @@ const TimelineItem = ({ time, role, company, companyURL, companyBio, works }) =>
         {company ? (
           <>
             at{' '}
-            <a target="_blank" rel="noopener noreferrer" href={companyURL}>
-              {company}
-            </a>
+            {companyURL ? (
+              <a target="_blank" rel="noopener noreferrer" href={companyURL}>
+                {company}
+              </a>
+            ) : (
+              company
+            )}
           </>
         ) : null}
         {companyBio ? ` - ${companyBio}` : null}
@@ -35,7 +39,7 @@ const Timeline = () => {
     <div className="timeline">
       <ul>
         {timelineData.map((item) => (
-          <TimelineItem key={item.time} {...item} />
+          <TimelineItem key={`${item.time}-${item.company}`} {...item} />
         ))}
       </ul>
     </div>

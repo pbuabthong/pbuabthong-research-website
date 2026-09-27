@@ -1,10 +1,15 @@
-import { description } from "./siteMetadata"
-
 const teachingData = [
   {
     institution: 'CMKL',
     logo: '/static/images/cmkl.png',
     courses: [
+      {
+        title: 'Physics I',
+        code: 'SCI-105, SCI-106, SCI-107, SCI-108',
+        semesters: 'Fall 2025',
+        description: '',
+        link: ''
+      },
       {
         title: 'Recommender Systems',
         code: 'AIC-601',
@@ -15,14 +20,14 @@ const teachingData = [
       {
         title: 'Generative AI (Graduate Level)',
         code: '41-623',
-        semesters: 'Spring 2025',
+        semesters: 'Spring 2025, Spring 2026',
         description: 'Comprehensive overview of generative machine-learning model',
         link: ''
       },  
       {
         title: 'Informational Retrieval and Extraction',
         code: 'AIC-401',
-        semesters: 'Fall 2024',
+        semesters: 'Fall 2024, Fall 2026',
         description: 'Information retrieval and extraction. Search and indexing. Various techniques for extracting information from structured or unstructured data sets, and for building systems that allow this information to be accessed quickly based on content.',
         link: ''
       }
@@ -33,7 +38,7 @@ const teachingData = [
     logo: '/static/images/kmutt.png',
     courses: [
       {
-        title: 'Artifiical Intelligence and Machine Learning',
+        title: 'Artificial Intelligence and Machine Learning',
         code: 'MEE-673',
         semesters: 'Spring 2025',
         description: 'A comprehensive introduction to Artificial Intelligence (AI) and Machine Learning (ML), exploring foundational concepts, techniques, and real-world applications. The basics of AI, supervised and unsupervised learning, neural networks, and decision trees, along with practical implementation using popular tools and frameworks.',
@@ -54,7 +59,7 @@ const teachingData = [
     courses: [
       {
         title: 'Green Globe',
-        code: 'NRRU-401101',
+        code: 'NRRU-003301',
         semesters: 'Spring 2025 - Present',
         description: 'Environmental science and introduction to sustainable development practices.',
         link: ''
