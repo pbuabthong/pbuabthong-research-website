@@ -34,19 +34,10 @@ export default function Home({ posts }) {
 
             <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
               <h1 className="text-neutral-900 dark:text-neutral-200">
-                I'm <span className="font-medium">Pai Pakpoom Buabthong</span>. I'm an assistant professor of Physics at{' '}
+                I'm <span className="font-medium">Pai Pakpoom Buabthong</span>. I'm an assistant professor of Physics and the Director of the{' '}
                 <a
                   className="underline"
-                  href="https://www.nrru.ac.th"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Nakhon Ratchasima Rajabhat University
-                </a>{' '}
-                and the Director of the{' '}
-                <a
-                  className="underline"
-                  href="https://lifelonglearning.nrru.ac.th/"
+                  href="https://lifelong.nrru.ac.th/"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -1,21 +1,30 @@
 import timelineData from '@/data/timelineData'
 
-const TimelineItem = ({ time, role, company, companyURL, companyBio, works }) => {
+const CompanyLink = ({ name, url }) =>
+  url ? (
+    <a target="_blank" rel="noopener noreferrer" href={url}>
+      {name}
+    </a>
+  ) : (
+    name
+  )
+
+const TimelineItem = ({ time, role, company, companyURL, companies, companyBio, works }) => {
+  const orgs = companies || (company ? [{ name: company, url: companyURL }] : [])
   return (
     <li className="relative ml-2.5 !my-0 pl-5 pb-6 border-l border-[#ca6702]">
       <div className="font-semibold leading-[18px] mb-4">{time}</div>
       <div>
         {role}{' '}
-        {company ? (
+        {orgs.length ? (
           <>
             at{' '}
-            {companyURL ? (
-              <a target="_blank" rel="noopener noreferrer" href={companyURL}>
-                {company}
-              </a>
-            ) : (
-              company
-            )}
+            {orgs.map((org, ind) => (
+              <span key={org.name}>
+                {ind > 0 ? ', ' : null}
+                <CompanyLink {...org} />
+              </span>
+            ))}
           </>
         ) : null}
         {companyBio ? ` - ${companyBio}` : null}
@@ -39,7 +48,7 @@ const Timeline = () => {
     <div className="timeline">
       <ul>
         {timelineData.map((item) => (
-          <TimelineItem key={`${item.time}-${item.company}`} {...item} />
+          <TimelineItem key={`${item.time}-${item.role}`} {...item} />
         ))}
       </ul>
     </div>

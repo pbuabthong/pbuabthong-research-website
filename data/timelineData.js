@@ -1,23 +1,18 @@
 const timelineData = [
   {
-    time: 'Current',
+    time: 'October 2025 - now',
     role: 'Consultant',
-    company: 'Mentora Consulting Group',
-    companyURL: 'https://mentora.co.th',
-    works: [],
-  },
-  {
-    time: 'Current',
-    role: 'Consultant',
-    company: 'Naralai',
-    companyURL: 'https://naralai.com',
+    companies: [
+      { name: 'Mentora Consulting Group', url: 'https://mentora.co.th' },
+      { name: 'Naralai', url: 'https://naralai.com' },
+    ],
     works: [],
   },
   {
     time: 'April 2025 - now',
     role: 'Director',
     company: 'Nakhon Ratchasima Office of Lifelong Learning (NRLL)',
-    companyURL: 'https://lifelonglearning.nrru.ac.th/',
+    companyURL: 'https://lifelong.nrru.ac.th/',
     works: [
 	`Implement credit bank system for NRRU`,
 	`Develop short-courses for upskilling and reskilling local workforce`,
@@ -28,7 +23,7 @@ const timelineData = [
     time: 'November 2024 - April 2025',
     role: 'Deputy Director',
     company: 'Nakhon Ratchasima Office of Lifelong Learning (NRLL)',
-    companyURL: 'https://lifelonglearning.nrru.ac.th/',
+    companyURL: 'https://lifelong.nrru.ac.th/',
     works: [
       'Academic services and external affairs'
 		],
