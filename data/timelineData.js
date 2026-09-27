@@ -3,7 +3,7 @@ const timelineData = [
     time: 'Current',
     role: 'Consultant',
     company: 'Mentora Consulting Group',
-    companyURL: '',
+    companyURL: 'https://mentora.co.th',
     works: [],
   },
   {

@@ -7,7 +7,7 @@ const teachingData = [
         title: 'Physics I',
         code: 'SCI-105, SCI-106, SCI-107, SCI-108',
         semesters: 'Fall 2025',
-        description: '',
+        description: 'Fundamental physics: kinematics, energy, and thermodynamics.',
         link: ''
       },
       {
